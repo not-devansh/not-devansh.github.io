@@ -1,4 +1,4 @@
-const ws = new WebSocket('ws://not-devansh.github.io:3000');
+const ws = new WebSocket('wss://not-devansh.github.io:3000');
 const messages = document.getElementById('messages');
 const questionContainer = document.getElementById('question-container');
 const form = document.getElementById('form');
