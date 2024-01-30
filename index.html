@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-time Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+.question-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <button id="truthButton">Truth</button>
+      <button id="situationButton">Situation</button>
+    </div>
+    <div class="chat-container">
+      <div id="chat">
+        <div id="message-container">
+          <ul id="messages"></ul>
+        </div>
+        <div id="input-container">
+          <form id="form" action="">
+            <input id="input" autocomplete="off" placeholder="Type a message" />
+            <button>Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="question-container" class="question-container"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script>
+
+
+
+
+  </script>
+  <script src="msg.js"></script>
+</body>
+</html>
